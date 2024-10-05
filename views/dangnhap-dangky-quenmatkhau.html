@@ -1,0 +1,212 @@
+<main>
+
+  <section class="login mb-5">
+    <div class="row mt-5">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item ms-3" role="presentation">
+              <button class="nav-link active fw-bold shadow-lg" style="width: 200px;" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Đăng Nhập</button>
+            </li>
+            <li class="nav-item ms-4" role="presentation">
+              <button class="nav-link fw-bold shadow-lg" style="width: 200px;" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Đăng Ký</button>
+            </li>
+            <li class="nav-item ms-4" role="presentation">
+              <button class="nav-link fw-bold shadow-lg" style="width: 200px;" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Quên Mật Khẩu</button>
+            </li>
+          </ul>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+      <div class="row">
+        <div class="col-md-12 px-lg-5 pt-3">
+            <div class="tab-content px-lg-5" id="pills-tabContent">
+              <div class="tab-pane fade show active mb-5" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row mt-5">
+                          <div class="col-md-4">
+                            <img src="./images/db1022.webp" class="img-fluid pt-2 pe-5" alt="...">
+                          </div>
+                          <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <label for="exampleFormControlInput1" class="form-label fw-bolder">Email or Username</label>
+                                      <input type="email" class="form-control shadow-lg mt-2" id="exampleFormControlInput1"  placeholder="Enter name@gmail.com/Username">
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                      <label for="exampleFormControlTextarea1" class="form-labe fw-bolder">Password</label>
+                                      <input type="password" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Password">
+                                    </div>
+                                    <div class=".col-md-12 form-check mt-3 ms-3">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      <label class="form-check-label" for="flexCheckChecked">
+                                        Check
+                                      </label>
+                                    </div>                                                  
+                                    <div class="col-md-12 mt-5">
+                                          <button class="btn btn-success w-100 fw-bold shadow-lg text-white">Submit</button>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="col-md-4">
+                            <img src="./images/db101.webp" class="img-fluid pt-2 ps-5" alt="...">
+                          </div>
+                    </div>
+              </div>
+              <div class="tab-pane fade mb-5" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="row mt-5">
+                        <div class="col-md-4 pt-5">
+                          <div class="float-start mb-4">
+                            <div class="spinner-grow text-primary" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-secondary" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-success" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-danger" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-warning" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-info" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-light" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div class="spinner-grow text-dark" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                          </div>
+                          <img src="./images/dng.avif" class="img-fluid mt-5 pe-sm-5" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bolder">Username</label>
+                                    <input type="text" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Username">
+                                  </div>
+                                  <div class="col-md-12 mt-4">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bolder">Email</label>
+                                    <input type="email" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Email">
+                                  </div>
+                                  <div class="col-md-12 mt-4">
+                                    <label for="exampleFormControlInput1" class="form-label fw-bolder">Phone</label>
+                                    <input type="number" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Phone">
+                                  </div>
+                                  <div class="col-md-12 mt-4">
+                                    <label for="formFileMultiple" class="form-label fw-bolder">Image</label>
+                                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                  </div>
+                                  <div class="col-md-12 mt-4">
+                                    <label for="exampleFormControlTextarea1" class="form-labe fw-bolder">Password</label>
+                                    <input type="password" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Password">
+                                  </div>
+                                  <div class="col-md-12 mt-4">
+                                    <label for="exampleFormControlTextarea1" class="form-labe fw-bolder">Check Password</label>
+                                    <input type="password" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Check Password">
+                                  </div>
+                                  <div class=".col-md-12 form-check mt-3 ms-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                      Check
+                                    </label>
+                                  </div>   
+                                  <div class="col-md-12 mt-5">
+                                        <button class="btn btn-warning w-100 fw-bold shadow-lg text-white">Submit</button>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 pt-5">
+                            <div class="float-end mb-4">
+                              <div class="spinner-grow text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-secondary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-success" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-danger" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-warning" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-info" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-light" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-grow text-dark" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                            </div>
+                            <img src="./images/dng.avif" class="img-fluid mt-5 ps-5" alt="...">
+                        </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade mb-5" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row mt-5">
+                  <div class="col-md-3">
+                      <div class="float-start">
+                        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                          <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+                          <span class="visually-hidden">Loading...</span>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                        <div class="row">
+                            <h3 class="mt-3">Bạn vui lòng nhập đúng email đang ký chúng tôi sẻ gửi mã xác nhận cho bạn.</h3>
+                            <div class="col-md-12 mt-4">
+                              <label for="exampleFormControlInput1" class="form-label fw-bolder">Email</label>
+                              <input type="email" class="form-control shadow-lg mt-2" id="exampleFormControlInput1" placeholder="Enter Email">
+                            </div>
+                        </div>   
+                        <div class="col-md-12 mt-5">
+                            <button class="btn btn-danger fw-bold shadow-lg text-white" style="margin-left: 100px; width: 400px;">Submit</button>
+                          
+                        </div>
+                    </div>
+                  <div class="col-md-3">
+                        <div class="float-end">
+                          <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                          <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                        </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+        </div>
+      </div>
+</section>
+<section class="end">
+  <div class="row bg-primary h-50 mt-5">
+       <div class="col-md-12">
+            <h3 class="text-white text-center pt-3">Tháng 11, đăng ký HỘI VIÊN COOLCLUB - Nhận voucher 15% + quà độc quyền</h3>
+       </div>
+       <div class="col-md-12 pt-3 pb-3">
+            <div class="row">
+                <div class="col-md-6">
+                  <button class="btn btn-light fw-bold rounded-pill text-primary float-end">THAM GIA MIỄN PHÍ hoặc ĐĂNG NHẬP</button>
+                </div>
+                <div class="col-md-6">
+                  <button class="btn btn-primary fw-bold border-white rounded-pill text-white float-start">Tìm hiểu đặc quyền Hội viên CoolClub</button>
+                </div>
+            </div>
+       </div>
+  </div>
+</section>
+</main>

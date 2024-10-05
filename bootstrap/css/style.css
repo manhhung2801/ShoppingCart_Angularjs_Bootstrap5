@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* customize  */
+.cd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.overlay{
+    margin-top: -400px;
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+
+}
+.bt-img{
+    margin-top: -1px;
+    margin-left: 50px;
+}
+.mt-ct{
+    margin-top: 180px;
+}
+
+.ct-b01{
+    top: -100px;
+}

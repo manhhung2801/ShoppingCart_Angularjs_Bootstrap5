@@ -1,0 +1,250 @@
+<main ng-controller="ctrlCart">
+
+  <section class="show-cart mb-5">
+    <div class="row">
+          <div class="col-md-7 border-end">
+                <div class="row rounded bg-light mt-4 w-100 pb-3">
+                    <div class="col-md-4">
+                      <a href="#" class="btn btn-dark mt-4 ms-5 rounded-pill">Tham gia CoolClub</a>
+                    </div>
+                    <div class="col-md-8">
+                      <p class="card-text float-end mt-4">Tham gia CoolClub để nhận voucher 15% cho đơn hàng đầu tiên và ghi nhận hoàn tiền trên từng đơn hàng.</p>
+                    </div>
+                </div>
+                <h6 class="mt-1">Bạn đã có tài khoản? hay <span class="text-primary">Đăng Nhập</span></h6>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="float-start mt-4">Thông tin vận chuyển</h1>
+                        <p class="float-end mt-5">Bạn đã có tài khoản? hay <span class="text-primary">Đăng Nhập</span></p>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                      <input type="text" class="form-control rounded"  placeholder="Họ tên">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                      <input type="text" class="form-control rounded"  placeholder="Số điện thoại">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <input type="email" class="form-control rounded"  placeholder="Email">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <textarea class="form-control rounded" id="exampleFormControlTextarea1" rows="3" placeholder="Địa chỉ(ví dụ: 102, Vạn Phúc, phường Vạn Phúc)" ></textarea>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Hồ Chí Minh</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>                                    
+                    </div>
+                    <div class="col-md-4 mt-3">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Chọn Quận/Huyện</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>                                    
+                    </div>
+                    <div class="col-md-4 mt-3">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Chọn Phường/Xã</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>                                    
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <input type="text" class="form-control rounded"  placeholder="Ghi chú thêm(Ví dụ: Giao hàng giờ hành chính)">
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <h1>Hình thức thanh toán</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                              <div class="col-md-12">
+                                  <div class="form-check border border-1 rounded px-5">
+                                    <input class="form-check-input mt-4" type="checkbox" value="" id="flexCheckDefault" checked>
+                                    <img src="./images/cart/pay0.svg" alt="" style="width: 50px; margin-bottom: 20px;" class="ms-2">
+                                    <label class="form-check-label pt-3 ms-2" for="flexCheckDefault">
+                                      COD <br>Thanh toán khi nhận hàng
+                                    </label>
+                                  </div>
+                              </div>
+                              <div class="col-md-12 mt-3">
+                                  <div class="form-check border border-1 rounded px-5">
+                                    <input class="form-check-input mt-4" type="checkbox" value="" id="flexCheckDefault">
+                                    <img src="./images/cart/pay1.webp" alt="" style="width: 50px; margin-bottom: 20px;" class="mt-3 ms-2">
+                                    <label class="form-check-label pt-3 ms-2" for="flexCheckDefault">
+                                      Thanh Toán MoMo
+                                    </label>
+                                  </div>
+                              </div>
+                              <div class="col-md-12 mt-3">
+                                <div class="form-check border border-1 rounded px-5">
+                                  <input class="form-check-input mt-4" type="checkbox" value="" id="flexCheckDefault">
+                                  <img src="./images/cart/pay2.svg" alt="" style="width: 50px; margin-bottom: 20px;" class="ms-2">
+                                  <label class="form-check-label pt-3 ms-2" for="flexCheckDefault">
+                                    Ví điện tử ZaloPay <br> Thẻ ATM / Thẻ tín dụng(Credit card)/ Thẻ ghi nợ(Debit card)
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-12 mt-3">
+                                <div class="form-check border border-1 rounded px-5">
+                                  <input class="form-check-input mt-4" type="checkbox" value="" id="flexCheckDefault">
+                                  <img src="./images/cart/pay3.webp" alt="" style="width: 50px; margin-bottom: 20px;" class="ms-2 mt-3">
+                                  <label class="form-check-label pt-3 ms-2" for="flexCheckDefault">
+                                    Ví ShopeePay
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-12 mt-3">
+                                <div class="form-check border border-1 rounded px-5">
+                                  <input class="form-check-input mt-4" type="checkbox" value="" id="flexCheckDefault">
+                                  <img src="./images/cart/pay4.webp" alt="" style="width: 50px; margin-bottom: 20px;" class="ms-2 mt-4">
+                                  <label class="form-check-label pt-3 ms-2 mt-2" style="margin-bottom: 40px;" for="flexCheckDefault">
+                                    Ví điện tử VNPAY / VNPAY OR
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-12 mt-3">
+                                <div class="form-check border border-1 rounded px-5">
+                                  <input class="form-check-input mt-4" type="checkbox" value="" id="flexCheckDefault">
+                                  <i class="fa-solid fa-qrcode fa-2xl ms-2" style="color: #000000; margin-bottom: 40px;"></i>
+                                  <label class="form-check-label pt-3 ms-2" for="flexCheckDefault">
+                                        Chuyển khoản liên ngân hàng bằng QR Code<br>
+                                        Chuyển tiền qua ví điện tử (MoMo, Zalopay,...)
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-12 mt-3">
+                                  <p>Nếu bạn không hài lòng với sản phẩm của chúng tôi? Bạn hoàn toàn có thể trả lại sản phẩm. Tìm hiểu thêm <span class="fw-bold">tại đây</span>.</p>
+                              </div>
+                              <div class="col-md-12 mt-3 mb-5">
+                                  <button class="btn btn-dark w-100">Thanh toán 2.392k (VNPAY)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div class="col-md-5">
+                <div class="row">
+                      <div class="col-md-12">
+                          <h1 class="ms-2 mt-4">Giỏ hàng</h1>
+                          <p class="text-secondary pt-3"><span class="float-start">MÔ TẢ SẢN PHẨM</span><span class="px-5 float-end">SỐ LƯỢNG</span></p>
+                      </div>
+                      
+                      <div class="col-md-12">
+                        <hr class="mt-3 mb-3">
+                        <div class="row" ng-repeat="product in carts">
+                            <div class="col-md-3">
+                                <img src="../images/products/cate-products/{{product.image}}" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-9">
+                                <h6>{{product.title}}<br>
+                                  <span class="text-secondary">Xanh sáng / 30</span> 
+                                </h6>
+                                <div class="row">
+                                      <div class="col-md-3">
+                                        <select class="form-select-sm rounded mt-1" aria-label="Default select example">
+                                          <option selected>Colors</option>
+                                          <option value="1">One</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                        </select>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <select class="form-select-sm rounded mt-1" aria-label="Default select example">
+                                          <option selected>Sizes</option>
+                                          <option value="1">One</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                        </select>
+                                      </div>
+
+                                      <div class="col-md-3">
+                                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                            <button class="btn btn-primary px-2"
+                                                ng-click="giam(product)">
+                                              <i class="fas fa-minus"></i>
+                                            </button>
+                      
+                                            <input id="form1" min="1" name="quantity" ng-model="product.quantity" type="number"
+                                              class="form-control form-control-sm ms-1"  style="width: 50px;"/>
+                      
+                                            <button class="btn btn-primary px-2 ms-1"
+                                                ng-click="tang(product)">
+                                              <i class="fas fa-plus"></i>
+                                            </button>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                      <h6 class="mt-3">{{product.price | number }} VNĐ<br> <small class="text-secondary disabled text-decoration-line-through">{{product.price + 25000  | number }} VNĐ</small></h6>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <i class="fa-solid fa-trash-can fa-xl mt-4" style="color: #000000;" ng-click="removeFromCart(product)"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <hr class="mt-3 mb-3">
+                        </div>
+                      </div>
+                      <hr class="mt-3 mb-3">
+                      <div class="col-md-12">
+                            <div class="border border-primary border-2 rounded">
+                                <h6 class="ms-5 mt-2 mb-2 text-danger fst-italic">Nhập mã CMCAFE Tặng cốc bã Café cho đơn hàng 399K</h6>
+                            </div>
+                            <p class="fst-italic mt-2">Có 13 người đang thêm cùng sản phẩm giống bạn vào giỏ hàng.</p>
+                      </div>
+                      <div class="col-md-8">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nhập mã giảm giá">
+                      </div>
+                      <div class="col-md-3">
+                          <button class="btn btn-secondary disabled">Áp Dụng</button>
+                      </div>
+                      <div class="col-md-12">
+                            <p class="mt-3">Sử dụng Voucher <i class="fa-solid fa-gift fa-lg" style="color: #000000;"></i></p>
+                            <hr class="mt-3">
+                            <p class="mt-3">Tạm tính 
+                              <span class="float-end">{{totalPrice | number }} VNĐ<br>
+                              (tiết kiệm <span class="text-primary">366k</span>)</span>
+                            </p>
+                            <p class="mt-3">Giảm giá
+                              <span class="float-end" style="margin-right: -110px;">
+                                  0đ
+                              </span>
+                            </p>
+                            <p class="mt-3">Phí giao hàng
+                              <span class="float-end">Miễn phí</span>
+                            </p>
+                            <hr class="mt-3">
+                            <p class="mt-3">Tổng
+                              <span class="float-end"> <span class="float-end fs-5 fw-bold">{{totalPrice | number }} VNĐ</span><br>
+                                <span class="text-danger float-end">(Đã giảm 366k trên giá gốc)</span>
+                              </span>
+                            </p>
+                            <hr class="mt-5">
+                            <button class="btn btn-dark rounded-pill">Hoàn tiền Coolcate</button>
+                            <p class="text-primary float-end">0</p>
+                      </div>
+                </div>
+          </div>
+    </div>
+</section>
+<section class="end">
+  <div class="row bg-primary h-50 mt-5">
+       <div class="col-md-12">
+            <h3 class="text-white text-center pt-3">Tháng 11, đăng ký HỘI VIÊN COOLCLUB - Nhận voucher 15% + quà độc quyền</h3>
+       </div>
+       <div class="col-md-12 pt-3 pb-3">
+            <div class="row">
+                <div class="col-md-6">
+                  <button class="btn btn-light fw-bold rounded-pill text-primary float-end">THAM GIA MIỄN PHÍ hoặc ĐĂNG NHẬP</button>
+                </div>
+                <div class="col-md-6">
+                  <button class="btn btn-primary fw-bold border-white rounded-pill text-white float-start">Tìm hiểu đặc quyền Hội viên CoolClub</button>
+                </div>
+            </div>
+       </div>
+  </div>
+</section>
+</main>

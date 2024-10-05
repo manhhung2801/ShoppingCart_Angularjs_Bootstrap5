@@ -1,0 +1,178 @@
+<main ng-controller="ctrlDetail">
+  <section class="detail-products">
+    <div class="row">
+          <div class="col-md-6">
+            <h5 class="mt-4">
+              <span class="text-secondary">Trang chủ</span><span class="text-dark">/ {{product.category}}</span>
+            </h5>
+            <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../images/products/cate-products/{{product.image}}" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/products/detail/d2.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/products/detail/d3.webp" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/products/detail/d4.webp" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/products/detail/d5.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+                  <div class="mt-5 justify-content-between">
+                    <h1 class="fw-bold p-4">{{product.title}}</h1>
+                    <h2 class="fw-bold px-3">{{product.price | number}} VNĐ</h2>
+                    <p class="px-3">Các mã giảm giá có thể áp dụng:</p>
+                    <div class="d-grid gap-2 d-md-block px-3">
+                      <button class="btn btn-danger" type="button">Giảm 100k</button>
+                      <button class="btn btn-danger ms-4" type="button">Giảm 50k</button>
+                      <button class="btn btn-danger ms-4" type="button">Giảm 30k</button>
+                      <button class="btn btn-danger ms-4" type="button">Giảm 10k</button>
+                    </div>
+                    <p class="px-3 mt-4">Màu sắc: <span class="fw-bold">Xanh sáng</span></p>
+                    <div class="d-grid gap-2 d-md-block px-3">
+                      <button class="btn btn-primary rounded-pill border border-dark" type="button" style="width: 50px; height:30px;"></button>
+                      <button class="btn btn-dark ms-1 rounded-pill" type="button" style="width: 50px; height:30px;"></button>
+                      <button class="btn btn-secondary ms-1 rounded-pill" type="button" style="width: 50px; height:30px;"></button>
+                    </div>
+                    <p class="px-3 mt-4">Kích thước: <a class="float-end">Hướng dẫn chọn size</a></p>
+                    <div class="d-grid gap-2 d-md-block px-3">
+                      <button class="btn btn-light rounded shadow" type="button" style="width: 60px; height:40px;">29</button>
+                      <button class="btn btn-light rounded ms-4 shadow" type="button" style="width: 60px; height:40px;">30</button>
+                      <button class="btn btn-light rounded ms-4 shadow" type="button" style="width: 60px; height:40px;">31</button>
+                      <button class="btn btn-light rounded ms-4 shadow" type="button" style="width: 60px; height:40px;">32</button>
+                      <button class="btn btn-light rounded ms-4 shadow" type="button" style="width: 60px; height:40px;">33</button>
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 d-md-block px-3 mt-5">
+                      <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                          <button class="btn btn-primary px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                          </button>
+    
+                          <input id="form1" min="0" name="quantity" value="1" type="number"
+                            class="form-control form-control-sm ms-1"  style="width: 50px;"/>
+    
+                          <button class="btn btn-primary px-2 ms-1"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                        <div class="col-md-8">
+                            <button class="btn btn-dark px-2 rounded-pill float-end" style="width: 300px;"><i class="fa-solid fa-bag-shopping fa-xl" style="color: #ffffff;"></i> Chọn kích thước</button>
+                        </div>
+                      </div>
+                  </div>
+                  <hr class="mt-3">
+                  <div class="d-grid gap-2 d-md-block px-3 mt-2">
+                      <div class="row">
+                            <div class="col-md-4 mt-3 text-center">
+                              <i class="fa-brands fa-slack fa-2xl" style="color: #000000;"></i>
+                              <p class="pt-3">Đổi trả cực dễ chỉ cần số điện thoại.</p>
+                            </div>
+                            <div class="col-md-4 mt-3 text-center">
+                              <i class="fa-solid fa-truck-fast fa-2xl" style="color: #000000;"></i>
+                              <p class="pt-3">Miễn phí vận chuyển cho đơn hàng trên 200k.</p>
+                            </div>
+                            <div class="col-md-4 mt-3 text-center">
+                              <i class="fa-solid fa-arrow-right fa-2xl" style="color: #000000;"></i>
+                              <p class="pt-3">60 ngày đổi trả vì bất kỳ lý do gì.</p>
+                            </div>
+                            <div class="col-md-4 mt-3 text-center">
+                              <i class="fa-solid fa-phone fa-2xl" style="color: #000000;"></i>
+                              <p class="pt-3">Hotline 0399915969 hỗ trợ từ 8h - 22h mỗi ngày.</p>
+                            </div>
+                            <div class="col-md-4 mt-3 text-center">
+                              <i class="fa-regular fa-clock fa-2xl" style="color: #000000;"></i>
+                              <p class="pt-3">Đến tận nơi nhận hàng trả, hoàn tiền trong 24h.</p>
+                            </div>
+                            <div class="col-md-4 mt-3 text-center">
+                              <i class="fa-brands fa-space-awesome fa-2xl" style="color: #000000;"></i>
+                              <p class="pt-3">Giao hàng nhanh toàn quốc.</p>
+                            </div>
+                      </div>
+                  </div>
+                  <hr class="mt-2">
+                  <h4>Đặc điểm nổi bật 
+                        <button class="btn btn-dark float-end" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            +
+                      </button>
+                  </h4>
+                  <div class="collapse" id="collapseExample">
+                      <p>- Chất liệu: Denim</p>
+                      <p>- Thành phần: 98% Cotton + 2% Spandex</p>
+                      <p>- Công nghệ Laser Marking tạo các vệt hiệu ứng chuẩn xác trên sản phẩm</p>
+                      <p>- Bề mặt quần không thô ráp</p>
+                      <p>- Co giãn tốt giúp quần ôm vừa vặn, thoải mái</p>
+                      <p>- Dáng Regular Straight suông rộng, thoải mái, không thùng thình</p>
+                      <p>- Người mẫu: 179 cm - 75 kg, mặc quần size 32</p>
+                      <p>- Tự hào sản xuất tại Việt Nam</p>
+                      <p>- Lưu ý:Sản phẩm vẫn sẽ bạc màu sau một thời gian dài sử dụng theo tính chất tự nhiên</p>
+                  </div>
+          </div>
+    </div>
+    <hr class="mt-5">
+    <div class="row">
+        <div class="card text-center border-0">
+          <div class="card-body">
+            <h2 class="card-title">Chi tiết sản phẩm: Quần Jeans nam Basics dáng Regular Straight</h2>
+            <img src="./images/products/detail/ed1.webp" class="img-fluid mt-2" alt="...">
+            <div class="d-flex">
+              <a href="#" class="btn btn-dark d-flex text-center" style="margin-left: 640px;" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">Xem Thêm <i class="fa-solid fa-arrow-down fa-xl mt-2 ms-3" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="collapse" id="collapseExample1">
+                <img src="./images/products/detail/ed2.webp" class="img-fluid mt-2" alt="...">
+                <img src="./images/products/detail/ed3.webp" class="img-fluid mt-2" alt="...">
+                <img src="./images/products/detail/ed4.webp" class="img-fluid mt-2" alt="...">
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+              <p class="fw-normal">Chưa có đánh giá</p>
+              <p class="fst-italic">Hãy mua và đánh giá sản phẩm này nhé!</p>
+              <i class="fa-solid fa-code fa-xl bg-secondary"></i>
+          </div>
+        </div>
+    </div>
+</section>
+<section class="end">
+  <div class="row bg-primary h-50 mt-5">
+       <div class="col-md-12">
+            <h3 class="text-white text-center pt-3">Tháng 11, đăng ký HỘI VIÊN COOLCLUB - Nhận voucher 15% + quà độc quyền</h3>
+       </div>
+       <div class="col-md-12 pt-3 pb-3">
+            <div class="row">
+                <div class="col-md-6">
+                  <button class="btn btn-light fw-bold rounded-pill text-primary float-end">THAM GIA MIỄN PHÍ hoặc ĐĂNG NHẬP</button>
+                </div>
+                <div class="col-md-6">
+                  <button class="btn btn-primary fw-bold border-white rounded-pill text-white float-start">Tìm hiểu đặc quyền Hội viên CoolClub</button>
+                </div>
+            </div>
+       </div>
+  </div>
+</section>
+</main>

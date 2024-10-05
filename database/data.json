@@ -1,0 +1,323 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Áo thun thời trang phong cách mới",
+            "price": 349000,
+            "image": "ao1.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 2,
+            "title": "Áo thun đơn giản",
+            "price": 449000,
+            "image": "ao2.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 3,
+            "title": "Áo thun tay dài",
+            "price": 649000,
+            "image": "ao3.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 4,
+            "title": "Áo thun giữ nhiệt",
+            "price": 249000,
+            "image": "ao4.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 5,
+            "title": "Áo thun tay dài phong cách",
+            "price": 149000,
+            "image": "ao5.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 6,
+            "title": "Áo Khoác gió trống mưa",
+            "price": 539000,
+            "image": "aokhoac1.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 7,
+            "title": "Áo Khoác gió mày sắc",
+            "price": 357000,
+            "image": "aokhoac2.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 8,
+            "title": "Áo Khoác nĩ",
+            "price": 709000,
+            "image": "aokhoac3.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 9,
+            "title": "Áo Khoác nĩ tối giản",
+            "price": 639000,
+            "image": "aokhoac4.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 10,
+            "title": "Áo khoác gió có cổ",
+            "price": 701900,
+            "image": "aokhoac5.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 11,
+            "title": "Giày thời trang 1",
+            "price": 839000,
+            "image": "giay1.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 12,
+            "title": "Giày thời trang 2",
+            "price": 939000,
+            "image": "giay2.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 13,
+            "title": "Giày thời trang 3",
+            "price": 539000,
+            "image": "giay3.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 14,
+            "title": "Giày thời trang 4",
+            "price": 839000,
+            "image": "giay4.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 15,
+            "title": "Giày thời trang 5",
+            "price": 239000,
+            "image": "giay5.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 16,
+            "title": "Quần short 1",
+            "price": 139000,
+            "image": "quan1.avif",
+            "category": "Quần"
+        },
+        {
+            "id": 17,
+            "title": "Quần jean đen",
+            "price": 539000,
+            "image": "quan2.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 18,
+            "title": "Quần 3",
+            "price": 139000,
+            "image": "quan3.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 19,
+            "title": "Quần 4",
+            "price": 139000,
+            "image": "quan4.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 20,
+            "title": "Quần 5",
+            "price": 139000,
+            "image": "quan5.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 21,
+            "title": "Áo thun thời trang phong cách mới 21",
+            "price": 349000,
+            "image": "ao1.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 22,
+            "title": "Áo thun đơn giản 22",
+            "price": 449000,
+            "image": "ao2.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 23,
+            "title": "Áo thun tay dài 23",
+            "price": 649000,
+            "image": "ao3.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 24,
+            "title": "Áo thun giữ nhiệt 24",
+            "price": 249000,
+            "image": "ao4.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 25,
+            "title": "Áo thun tay dài phong cách 25",
+            "price": 149000,
+            "image": "ao5.avif",
+            "quantity": 1,
+            "category": "Áo"
+        },
+        {
+            "id": 26,
+            "title": "Áo Khoác gió trống mưa 26",
+            "price": 539000,
+            "image": "aokhoac1.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 27,
+            "title": "Áo Khoác gió mày sắc 27",
+            "price": 357000,
+            "image": "aokhoac2.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 28,
+            "title": "Áo Khoác nĩ",
+            "price": 709000,
+            "image": "aokhoac3.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 29,
+            "title": "Áo Khoác nĩ tối giản 28",
+            "price": 639000,
+            "image": "aokhoac4.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 30,
+            "title": "Áo khoác gió có cổ 29",
+            "price": 701900,
+            "image": "aokhoac5.avif",
+            "quantity": 1,
+            "category": "Áo Khoác"
+        },
+        {
+            "id": 31,
+            "title": "Giày thời trang 1 30",
+            "price": 839000,
+            "image": "giay1.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 32,
+            "title": "Giày thời trang 2 31",
+            "price": 939000,
+            "image": "giay2.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 33,
+            "title": "Giày thời trang 3 32",
+            "price": 539000,
+            "image": "giay3.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 34,
+            "title": "Giày thời trang 4 33",
+            "price": 839000,
+            "image": "giay4.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 35,
+            "title": "Giày thời trang 5 34",
+            "price": 239000,
+            "image": "giay5.webp",
+            "quantity": 1,
+            "category": "Giày"
+        },
+        {
+            "id": 36,
+            "title": "Quần short 1 35",
+            "price": 139000,
+            "image": "quan1.avif",
+            "category": "Quần"
+        },
+        {
+            "id": 37,
+            "title": "Quần jean đen 37",
+            "price": 539000,
+            "image": "quan2.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 38,
+            "title": "Quần 3 36",
+            "price": 139000,
+            "image": "quan3.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 39,
+            "title": "Quần 4 39",
+            "price": 139000,
+            "image": "quan4.avif",
+            "quantity": 1,
+            "category": "Quần"
+        },
+        {
+            "id": 40,
+            "title": "Quần 5 40",
+            "price": 139000,
+            "image": "quan5.avif",
+            "quantity": 1,
+            "category": "Quần"
+        }
+    ]
+    
+}
